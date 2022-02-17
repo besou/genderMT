@@ -419,7 +419,7 @@ politeness_level = [
 
 def guess_tag(string, rules):
     """
-    Guess the suiting tag for a string given a hierarchical set of rules.
+    Guess the appropriate tag for a string based on a hierarchical set of rules.
 
     Args:
         string: the string to analyze.
@@ -437,7 +437,8 @@ def guess_tag(string, rules):
 
 def annotate_morphology(string):
     """
-    Annotate relevant morphological tags to each token in a string.
+    Annotate relevant morphological tags to each token in a string
+    as a preprocessing step.
 
     Args:
         string: the string to annotate.
