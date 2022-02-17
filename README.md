@@ -33,8 +33,8 @@ contain either a tag from one of the respective tag set or it is
 empty of no match has been found. The fourth column contains the
 original sentence.
 
-There are two test files, `corpus.ru` and `corpus.fr` for
+There are two test files, `corpus.ru.txt` and `corpus.fr.txt` for
 testing purposes. These may be used as follows:
 
-- `python scripts/tag_russian_corpus.py data/corpus.ru tags.ru`
-- `python scripts/tag_french_corpus.py data/corpus.fr tags.fr`
+- `python scripts/tag_russian_corpus.py data/corpus.ru.txt tags.ru.txt`
+- `python scripts/tag_french_corpus.py data/corpus.fr.txt tags.fr.txt`
